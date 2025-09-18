@@ -4,3 +4,11 @@ on:
   push:
     branches:
       - master 
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step for testing
+        run: echo "Тестируем приложение"
